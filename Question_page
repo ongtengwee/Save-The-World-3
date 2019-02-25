@@ -1,0 +1,116 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <style>
+ body { 
+ background-image: 
+    url("http://dunmanhigh.moe.edu.sg/wp-content/uploads/2017/03/masthead-about-mission.jpg");
+ 
+ background-position-x: 00px;
+ background-position-y: 0px;
+ background-size: 150%;
+ background-repeat: no-repeat;
+ background-color: grey
+ }   
+ body {
+  
+    font-family: Futura,Trebuchet MS,Arial,sans-serif;
+   font-size: 40px;} 
+    h1 { position: relative;
+    top : 10%;
+    left : 5%;}
+    button { font-size: 30px;}
+    
+     #nextqn {position: absolute;
+     bottom : 10%;
+     left : 5%;}
+     p1, p2, p3, p4, p5, p6, button {position: relative;
+     left : 5%}
+
+  h1{font-family: "Roboto"}
+  #sample{
+    position: absolute;
+     bottom : 40%;
+     left : 60%;
+  }
+  .container{
+      background-color: grey;
+      width : 750px;
+      height: 470px;
+      position: absolute;
+     bottom : 26%;
+     left : 5%;
+     font-size: 30px;
+  }
+  .btn1{
+    position: absolute;
+     bottom : 50%;
+     left : 20%;
+     font-size: 17px;
+
+  }
+  .btn2{
+    position: absolute;
+     bottom : 40%;
+     left : 20%;
+     font-size: 17px;
+
+  }
+  .btn3{
+    position: absolute;
+     bottom : 30%;
+     left : 20%;
+     font-size: 17px;
+
+  }
+  .btn4{
+    position: absolute;
+     bottom : 20%;
+     left : 20%;
+     font-size: 17px;
+
+  }
+  .op{
+     color: aliceblue;
+  }
+    </style>
+<title>
+Page Template
+</title>
+<script src = "main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+<h1> DHS Quiz </h1>
+<br>
+<div class="container">
+<div class = "well">
+<br>
+<p1> Qn No.</p1> 
+<p2> sample_question</p2> </div> 
+<div></div>
+
+<br>
+<p3 class = "op"> a) </p3> 
+<a href= "https://dunmanhigh.moe.edu.sg"button type="button" class="btn1 btn-primary btn-lg">Option A</a>
+<div></div>
+<p4 class = "op"> b) </p4> 
+<a href= "https://dunmanhigh.moe.edu.sg"button type="button" class="btn2 btn-success btn-lg">Option B</a>
+<div></div>
+<p5 class = "op"> c) </p5>
+<a href= "https://dunmanhigh.moe.edu.sg"button type="button" class="btn3 btn-warning btn-lg">Option C</a>
+<div></div>
+<p6 class = "op">  d) </p6>
+<a href= "https://dunmanhigh.moe.edu.sg"button type="button" class="btn4 btn-danger btn-lg">Option D</a>
+</div>
+
+
+<button id = "nextqn"> Next Question </button>
+<img id = "sample" src = "http://www.sitfawards.com/wbn/slot/u2575/Sitf%20Awards%20Final%20Judges%20Photo/DHS.png"  style="width:300px;height:300px;" >
+</body>
+</html>
