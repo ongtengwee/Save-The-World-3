@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Beginning</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+  <style>
+    body { background-image: 
+    url("http://dunmanhigh.moe.edu.sg/wp-content/uploads/2017/03/masthead-about-mission.jpg");
+    background-repeat: no-repeat;
+    background-size: fill;
+    background-color: black;
+   
+     }
+     .jumbotron{
+       background-color: black;
+       color: white;
+       height: 180px;
+       font-family: 'Roboto', sans-serif;
+
+     }
+     .button {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    
+    }
+
+
+    
+    .container{
+      font-size: 17px;
+      color: black;
+      background-color: grey
+    
+    }
+    .container{
+      font-family: Futura,Trebuchet MS,Arial,sans-serif;
+    }
+    .progress{
+      background-color: yellowgreen;
+    }
+
+  </style>
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+</head>
+<body>
+
+<div class="jumbotron">
+  <h1>Where @ Dunman High Quiz </h1>      
+  <p>Welcome To This Quiz!</p>
+</div>
+<br></br>
+<div class="container">
+  <p><div class="well">This Quiz tests you on your knowledge of various venues in the</div> <a href= "https://dunmanhigh.moe.edu.sg"button type="button" class="btn btn-primary btn-lg">Dunman High Campus!</button></a></p>      
+  <p><div class="well">Please <a href= "https://dunmanhigh.moe.edu.sg"button type="button" class="btn btn-danger btn-lg">Login</button></a> Before Beginning</div></p>      
+</div>
+
+<br></br>
+
+
+</body>
+</html>
